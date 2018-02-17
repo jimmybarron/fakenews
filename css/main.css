@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 20px 0 0 0;
+    height: 80px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    min-width: 540px;
+}
+
+.myTimes {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: mediumaquamarine;
+    padding: 0 0 0 10px;
+}
+
+#mytLogo {
+    padding: 0 0 0 40px;
+}
+
+.leftNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rightNav ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: .8em;
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: -50px;
+    right: 20px;
+}
+
+.rightNav li {
+    list-style-type: none;
+}
