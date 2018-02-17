@@ -8,6 +8,14 @@ body {
     border-bottom: 1px solid black;
     position: fixed;
     min-width: 540px;
+    display: inline-flex;
+}
+
+.leftNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
 }
 
 .myTimes {
@@ -22,9 +30,14 @@ body {
     padding: 0 0 0 40px;
 }
 
-.leftNav {
+.rightNav {
     display: flex;
-    justify-content: flex-start;
+    align-content: flex-end;
+}
+
+.rightNav li {
+    list-style-type: none;
+    display: inline-flex;
     align-items: center;
 }
 
@@ -33,13 +46,4 @@ body {
     text-decoration: underline;
     font-weight: bold;
     font-size: .8em;
-    display: inline-block;
-    position: relative;
-    float: right;
-    top: -50px;
-    right: 20px;
-}
-
-.rightNav li {
-    list-style-type: none;
 }
