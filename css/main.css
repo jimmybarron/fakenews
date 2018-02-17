@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 .header {
     padding: 20px 0 0 0;
     height: 80px;
@@ -10,6 +14,7 @@ body {
     min-width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 .leftNav {
@@ -48,4 +53,31 @@ body {
     text-decoration: underline;
     font-weight: bold;
     font-size: .8em;
+}
+
+.main {
+    position: relative;
+    top: 100px;
+    border: 1px solid black;
+}
+
+.column.large {
+    width: 630px;
+}
+
+.column.medium {
+    width: 300px;
+}
+
+.column.small {
+    width: 240px;
+}
+
+.mainTitleOverlay {
+    border: 1px solid black;
+}
+
+
+.article {
+    border: 1px solid black;
 }
