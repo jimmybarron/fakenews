@@ -7,8 +7,9 @@ body {
     height: 80px;
     border-bottom: 1px solid black;
     position: fixed;
-    min-width: 540px;
-    display: inline-flex;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .leftNav {
@@ -33,6 +34,7 @@ body {
 .rightNav {
     display: flex;
     align-content: flex-end;
+    padding: 0 40px 0 0;
 }
 
 .rightNav li {
