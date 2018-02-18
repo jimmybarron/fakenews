@@ -95,17 +95,21 @@ p {
 .firstTitleOverlay {
     background-image: url('../assets/img-story-main.png');
     display: flex;
+    align-items: center;
 }
 
 .firstTitleOverlay h2 {
     color: white;
-    font-size: 50px;;
+    font-size: 50px;
+    height: 200px;
+    align-items: center;
 }
 
 p {
     font-family: Georgia;
     font-size: 17px;
     color: black;
+    padding: 16px 0;
 }
 
 .secondTitleOverlay {
@@ -116,7 +120,8 @@ p {
 
 .secondTitleOverlay h2 {
     color: white;
-    font-size: 30px;;
+    font-size: 30px;
+    text-align: center;
 }
 
 .thirdTitleOverlay {
@@ -127,7 +132,8 @@ p {
 
 .thirdTitleOverlay h2 {
     color: white;
-    font-size: 30px;;
+    font-size: 30px;
+    text-align: center;
 }
 
 .fourthTitleOverlay {
@@ -139,5 +145,16 @@ p {
 .fourthTitleOverlay h2 {
     color: white;
     font-size: 30px;
-    ;
+    text-align: center;
+}
+
+.twoColumn {
+    display: flex;
+}
+
+.twoColumn .article {
+    padding: 0 24px 0 0;
+}
+
+.article h2 {
 }
