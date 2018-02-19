@@ -6,8 +6,16 @@ p {
     margin: 0;
 }
 
+h2 {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
 .header {
-    padding: 30px; 0 0 0;
+    padding: 30px 0;
     height: 40px;
     border-bottom: 1px solid black;
     position: fixed;
@@ -54,12 +62,13 @@ p {
     text-decoration: underline;
     font-weight: bold;
     font-size: .8em;
+    padding: 20px;
 }
 
 .main {
     position: relative;
     top: 100px;
-    border: 1px solid black;
+    
     display: flex;
     justify-content: center;
 
@@ -71,38 +80,40 @@ p {
 
 .column.large {
     width: 630px;
-    border: 1px solid black;
+    
 }
 
 .column.medium {
     width: 300px;
-    border: 1px solid black;
+    
 }
 
 .column.small {
     width: 240px;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .mainTitleOverlay {
-    border: 1px solid black;
+    
 }
 
 .article {
-    border: 1px solid black;
+    
 }
 
 .firstTitleOverlay {
     background-image: url('../assets/img-story-main.png');
     display: flex;
-    align-items: center;
+    height: 250px;
 }
 
 .firstTitleOverlay h2 {
     color: white;
     font-size: 50px;
     height: 200px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 p {
@@ -160,4 +171,54 @@ p {
 }
 
 .article h2 {
+
+}
+
+#newsBites {
+    list-style-type: none;
+    align-items: center;
+}
+
+#newsBites li { 
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    display: flex;
+    padding: 10px 10px;
+    border-bottom: 1px solid black;
+}
+
+h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    background-color: MediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+    top: 200px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#myTimesFooterLogo {
+    color: white;
+    align-items: center;
+}
+
+#footerNav ul {
+  list-style-type: none;
+    display: inline-flex;
+}
+
+#footerNav li {
+    padding-left: 20px; 
 }
